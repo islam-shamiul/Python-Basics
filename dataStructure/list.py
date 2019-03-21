@@ -33,3 +33,9 @@ queue.append('Ram')
 print(queue.popleft())
 print(queue.popleft())
 print(queue)
+
+#lambda expression
+
+names=["RAgib SHariar","SHabbir AHmed","samiul islam"]
+names.sort(key=lambda name : name.split(" ")[-1].lower())
+print(names)
