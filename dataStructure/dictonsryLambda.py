@@ -5,7 +5,7 @@ del tel['sape']
 print(tel)
 print(list(tel))
 print(sorted(tel))
-a={x:x**2 for x in range(5)}
+a = {x: x**2 for x in range(5)}
 print(a)
-for k,v in a.items():
-    print('Key={} :value={}'.format(k,v))
+for k, v in a.items():
+    print('Key={} :value={}'.format(k, v))
