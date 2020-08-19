@@ -3,9 +3,10 @@ a = "this is a sentense"
 x = ""
 y = a.split(" ")
 
-print(len(y))
+print(a)
+"""print(len(y))
 print(y[0])
-"""z1 = y[0][::-1]
+z1 = y[0][::-1]
 z2 = y[1][::-1]
 z3 = y[2][::-1]
 z4 = y[3][::-1]
