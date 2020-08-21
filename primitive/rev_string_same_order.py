@@ -15,4 +15,4 @@ print(z1+" "+z2+" "+z3+" "+z4)
 
 for z in y:
     x += z[::-1] + " "
-print(x)
+print(x.strip())
