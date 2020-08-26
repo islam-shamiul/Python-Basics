@@ -16,22 +16,3 @@ for j in range(len(temp)-1, -1, -1):
     else:
         rev += temp[j]
 print(rev)
-
-# split_value = []
-# tmp = ''
-# for c in st:
-#     if c == ' ':
-#         split_value.append(tmp)
-#         tmp = ''
-#     else:
-#         tmp += c
-
-# # for last word
-# if tmp:
-#     split_value.append(tmp)
-
-# print(split_value)
-
-# for j in range(len(split_value)-1, -1, -1):
-#     rev += split_value[j] + " "
-# print(rev.strip())

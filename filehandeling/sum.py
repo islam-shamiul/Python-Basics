@@ -15,3 +15,4 @@ for line in contents:
             sum += int(char)
 message = (f"\nthe sum is {sum}")
 b.write(message)
+b.close()
